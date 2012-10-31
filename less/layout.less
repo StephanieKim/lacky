@@ -21,9 +21,19 @@ a:hover {
 #test2 div:nth-child(odd) {
     background-color: @grey;
 }
+
+#test3 {
+    background-color: @grey;
+    color: @white;
+    article:first-of-type {
+        border-bottom: solid 1px @white;
+    }
+}
+
 #main_header {
     padding: 0px;
 }
+
 #main_nav {
     background-color: @black;
     text-align: center;
@@ -32,14 +42,6 @@ a:hover {
     a {
         color: @white;
         padding: 10px;
-    }
-}
-
-#test3 {
-    background-color: @grey;
-    color: @white;
-    article:first-of-type {
-        border-bottom: solid 1px @white;
     }
 }
 
