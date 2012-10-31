@@ -1,0 +1,58 @@
+@import "lacky.less";
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#test div {
+    background-color: @grey;
+    height: 30px;
+}
+
+#test2 div {
+    background-color: @black;
+    height: 30px;
+}
+
+#test2 div:nth-child(odd) {
+    background-color: @grey;
+}
+#main_header {
+    padding: 0px;
+}
+#main_nav {
+    background-color: @black;
+    text-align: center;
+    float: right;
+    padding: 5px;
+    a {
+        color: @white;
+        padding: 10px;
+    }
+}
+
+#test3 {
+    background-color: @grey;
+    color: @white;
+    article:first-of-type {
+        border-bottom: solid 1px @white;
+    }
+}
+
+footer {
+    background-color: @black;
+    h3, h4, p {
+        color: @white;
+    }
+}
+
+#footer_nav {
+    a {
+        color: @white;
+        padding: 0px 10px;
+    }
+}

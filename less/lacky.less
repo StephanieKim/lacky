@@ -1,0 +1,110 @@
+@import "variables.less";
+@import "mixins.less";
+
+html, body {
+    overflow-x: hidden;
+} 
+
+html {
+    font: 400 1em/1.4em Helvetica, Arial, sans-serif;
+}
+*, *:after, *:before {
+    .border-box;
+}
+
+h1, h2, h3, h4, h5, a{
+    font-family: @main_font;
+    letter-spacing: 0.07em;
+    font-weight: 400;
+    color: @black;
+}
+h1 {
+    font-size: @h1;
+}
+
+h2 {
+    font-size: @h2;
+}
+
+h3 {
+    font-size: @h3;
+}
+
+h4 {
+    font-size: @h4;
+}
+p {
+    margin-bottom: 10px;
+}
+img {
+    max-width:  100%;
+}
+.block {
+    display: block;
+    margin-bottom: 4px;
+}
+.span,h1, h2, h3, h4, h5, a, nav, footer {
+    display: inline-block;
+    margin-right: -5px;
+    margin-bottom: 4px;
+    vertical-align: top;
+}
+.span section, .span article {
+    padding: 20px;
+}
+.row {
+    margin-bottom: 40px;
+}
+.wrapper {
+    width: 90%;
+    margin: 20px auto;
+}
+.column16 {
+    width: 100%; /*1024px/1024px */
+}
+.column15 {
+    width: 93.75%; /* 960px/1024px */
+}
+.column14 {
+    width: 87.5%; /* 896px/1024px*/
+}
+.column13 {
+    width: 81.25%; /*832px/1024px*/
+}
+.column12 {
+    width: 75%;   /*768px/1024px */
+}
+.column11 {
+    width: 68.75%;   /*704px/1024px */
+}
+.column10 {
+    width: 62.5%;   /*640px/1024px */
+}
+.column9 {
+    width: 56.25%;   /*580px/1024px */
+}
+.column8 {
+    width: 50%;   /*512px/1024px */
+}
+.column7 {
+    width: 43.75%;   /*448px/1024px */
+}
+.column6 {
+    width: 37.5%;   /*384px/1024px */
+}
+.column5 {
+    width: 31.25%;   /*320px/1024px */
+}
+.column4 {
+    width: 25%;   /*256px/1024px */
+}
+.column3 {
+    width: 18.75%;   /*192px/1024px */
+}
+.column2 {
+    width: 12.5%;   /*128px/1024px*/
+}
+.column1 {
+    width: 6.25%;   /*64px/1024px */
+}
+
